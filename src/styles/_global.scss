@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+	background-color: #fafafa;
+	overflow: hidden;
+}
+a.active, a:focus, button:focus, button.active {
+    outline: none;
+}
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.btn:focus{
+    box-shadow: none;
+}
+a:focus, a:hover, a:active {
+    outline: 0;
+    box-shadow: 0;
+}
+
+a:focus, a:hover {
+    text-decoration: none;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6 {
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul li {
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+}
+figure{
+    margin: 0;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.wrapper {
+    position: relative;
+    overflow: auto;
+    padding: 100px 0 0 0;
+	//min-height: 100vh;
+}
+svg {
+    fill: #606060;
+}

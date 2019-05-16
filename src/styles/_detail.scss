@@ -1,0 +1,358 @@
+
+.video-detail-page .page-detail-colum .scrollbar-outer > .scroll-element.scroll-y .scroll-element_outer {
+    left: 0px;
+    width: 12px;
+}
+.video-detail-page .page-detail-colum .scrollbar-outer > .scroll-element .scroll-element_track,
+.video-detail-page .page-detail-colum .scrollbar-outer > .scroll-element .scroll-bar:hover,
+.video-detail-page .page-detail-colum .scrollbar-outer > .scroll-element .scroll-bar{
+    background-color: #fafafa;
+}
+.video-detail-page .page-detail-colum-small .scrollbar-outer > .scroll-element.scroll-y .scroll-element_outer {
+    left: 0px;
+    width: 12px;
+}
+.video-detail-page .page-detail-colum-small .scrollbar-outer > .scroll-element .scroll-element_track,
+.video-detail-page .page-detail-colum-small .scrollbar-outer > .scroll-element .scroll-bar:hover,
+.video-detail-page .page-detail-colum-small .scrollbar-outer > .scroll-element .scroll-bar{
+    background-color: #fafafa;
+}
+.video-detail-page .page-detail-colum .left-panel.scroll-wrapper {
+	padding-right: 10px!important;
+}
+.detail-like-strip ul li a:hover i{
+    color: rgba(96, 96, 96, 0.8);
+}
+.detail-like-strip ul li.active a i{
+    color: #0079d3;
+}
+.detail-like-strip ul li a.dots-icon{
+    font-size: 22px;
+}
+.detail-like-strip ul li a{
+    color: rgba(96, 96, 96, 0.8);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    padding: 7px 12px;
+    border-radius: 50px;
+}
+.detail-like-strip ul li a:hover{
+    background-color: rgba(0,0,0,0.02)
+}
+.detail-like-strip ul li.active a {
+    color: #0079d3;
+}
+.detail-like-strip ul li a i{
+    padding-right: 10px;
+}
+.detail-like-strip ul li a i.active{
+    display: none;
+}
+.detail-like-strip ul li.active a i.active{
+    display: block;
+}
+.detail-like-strip ul li.dropdown i{
+    padding: 0;
+}
+.detail-like-strip ul li.active a i.unactive{
+    display: none;
+}
+.detail-like-strip ul li a i.fa-thumbs-up {
+    margin-top: -6px;
+}
+.detail-like-strip ul li.dropdown .dropdown-menu{
+    box-shadow: rgba(28, 28, 28, 0.2) 0px 2px 4px 0px;
+    margin-top: 3px;
+    z-index: 10;
+    background-color: rgb(255, 255, 255);
+    min-width: 127px;
+    border-radius: 4px;
+    padding: 0;
+    max-height: 380px;
+    overflow: auto;
+}
+.detail-like-strip ul li.dropdown .dropdown-menu .dropdown-item{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(96, 96, 96, 0.8);
+    border-bottom: 1px solid rgb(237, 239, 241);
+    padding: 8px;
+    display: block;
+    text-transform: capitalize;
+    border-radius: 0 !important;
+}
+.detail-like-strip ul li.dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.video-detail-republic ul li:first-child.active a,
+.video-detail-republic ul li:first-child a:hover {
+    background-color: #179aff;
+}
+.video-detail-republic ul li:first-child.active a i,
+.video-detail-republic ul li:first-child a:hover i {
+    color: #fff;
+}
+.video-detail-republic ul li:last-child.active a,
+.video-detail-republic ul li:last-child a:hover{
+    background-color: #e81b23;
+}
+.video-detail-republic ul li:last-child.active a i,
+.video-detail-republic ul li:last-child a:hover i {
+    color: #fff;
+}
+a.user-name {
+    color: #606060;
+    text-decoration: none;
+}
+a.user-name:hover {
+    text-decoration: underline;
+}
+.detail-like-strip {
+    background-color: #fafafa;
+    border-top: 1px solid #e2e2e2;
+    box-shadow: 0 -3px 2px -2px rgba(200,200,200,0.3);
+    padding: 4px 10px 4px 10px;
+    position: fixed;
+    left: 28px;
+    bottom: 0;
+    z-index: 1000;
+    width: calc(60% - 65px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.detail-like-strip ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detail-like-strip ul li:first-child {
+    margin-left: 0;
+    margin-right: 30px;
+}
+.video-upnext-box .text-box a:hover span {
+    text-decoration: none;
+}
+a.btn-load {
+    color: grey;
+}
+.video-detail-republic {
+    position: fixed;
+    top: 109px;
+    width: 58%;
+    left: 0;
+    padding: 0 0 0 15px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    margin: 0 6px;
+    transition: all 0.2s ease-in-out;
+}
+.video-detail-republic.active{
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.2s ease-in-out;
+}
+.video-detail-republic.hide{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+}
+.video-detail-republic ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.video-detail-republic ul li a img{
+    max-width: 50px;
+    width: 100%;
+}
+.video-detail-republic ul li a{
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    -webkit-box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.37);
+    box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.37);
+    margin-left: 0;
+}
+.video-detail-republic ul li a i{
+    font-size: 54px;
+    color: #179aff;
+}
+.video-detail-republic ul li:last-child a i{
+    color: #e81b23;
+    margin-left: 9px;
+}
+.video-upnext-box {
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.video-upnext-box:hover  .text-box h3{
+    text-decoration: none;
+}
+.video-upnext-box .image-holder {
+    max-width: 168px;
+    height: 94px;
+    width: 100%;
+    position: relative;
+}
+.video-upnext-box .image-holder img{
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.video-upnext-box .text-box{
+    width: 100%;
+    height: 100%;
+    padding-left: 9px;
+    padding-top: 0px;
+    text-transform: capitalize;
+}
+.video-upnext-box h3{
+    color: #0a0a0a;
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+.video-upnext-box:hover h3,.video-upnext-box:hover .pro-text{
+    text-decoration: none;
+}
+.video-upnext-box  h3 span{
+    display: -webkit-box;
+    max-height: 33px;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-weight: 600;
+    font-size: 14px;
+    color: #0a0a0a;
+    text-overflow: ellipsis;
+    white-space: normal;
+    -webkit-line-clamp: 2;
+}
+.video-upnext-box h3 .dots-img{
+    max-width: 24px;
+    display: inline-block;
+    width: 100%;
+    opacity: 0;
+    height: 24px;
+}
+.video-upnext-box h3 .dots-img svg {
+    fill: #909090;
+}
+.video-upnext-box .text-box span {
+    font-size: 13px;
+    font-weight: 400;
+    color: #606060;
+    display: block;
+    margin-bottom: 3px;
+}
+.video-upnext-box .text-box span .user-pic{
+    width: 20px;
+    height: 20px;
+}
+.video-upnext-box .text-box p{
+    font-size: 13px;
+    font-weight: 400;
+    color: #606060;
+}
+.video-upnext-box:hover h3 .dots-img{
+    opacity: 1;
+}
+.video-upnext-box:hover .clock-icon{
+    display: block;
+}
+.video-detail-right .title{
+    margin-bottom: 18px;
+    padding-top: 40px;
+}
+.video-detail-right .title span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0a0a0a;
+}
+.video-upnext{
+    max-width: 100%
+}
+.ul-social-share-dd li {
+	margin: 0!important;
+}
+.dd-share-expanded {
+	min-width: unset!important;
+}
+.dd-share-expanded li {
+	padding: 0px!important;
+	width: 50px;
+	text-align: center;
+}
+.dd-share-expanded li a {
+	border-radius: 0!important;
+}
+.dd-share-expanded li span {
+	margin: 0 auto;
+}
+.balance-scale a {
+	background-color: transparent;
+	border: 1px solid #8f8f8f00;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 30px;
+    display: inline-block;
+}
+.balance-scale a i {
+	font-size: 23px;
+	line-height: 23px;
+	padding: 6px 0px 0px 2px;
+
+}
+.balance-scale a i.fa-democrat {
+	color: white;
+}
+.balance-scale a i.fa-republican {
+	color: white;
+}
+@media (max-width: 1199px) {
+	.balance-scale a {
+		width: 35px;
+		height: 35px;
+	}
+	.balance-scale a i {
+		font-size: 20px;
+		line-height: 20px;
+		padding: 6px 0px 0px 0px;
+	}
+}
+@media (max-width: 575px) {
+	.balance-scale a {
+		width: 30px;
+		height: 30px;
+	}
+	.balance-scale a i {
+		font-size: 18px;
+		line-height: 18px;
+		padding: 0px 0px 0px 3px;
+	}
+}
+
+.democrat-back {
+	background-color: #179aff !important;
+}
+
+.republican-back {
+	background-color: #e81b23 !important;
+}
